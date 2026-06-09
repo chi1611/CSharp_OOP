@@ -14,7 +14,7 @@ namespace PhanSoApp
         {
             if (mauSo == 0)
             {
-                throw new ArgumentException("Mẫu số không được bằng 0.");
+                throw new ArgumentException("Mau so khong duoc bang 0. vidu:(1;0)");
             }
             // Đưa dấu âm lên tử số
             if (mauSo < 0)
@@ -45,6 +45,42 @@ namespace PhanSoApp
         {
             if (MauSo == 1) return TuSo.ToString();
             return $"{TuSo}/{MauSo}";
+        }
+        //bai2: them chồng toán tử operator: + - x /
+        public static PhanSo operator +(PhanSo a, PhanSo b)
+        {
+            int tuSo = a.TuSo * b.MauSo + b.TuSo * a.MauSo;
+            int mauSo = a.MauSo * b.MauSo;
+            return new PhanSo(tuSo, mauSo);
+        }
+        public static PhanSo operator -(PhanSo a, PhanSo b)
+        {
+            int tuSo = a.TuSo * b.MauSo - b.TuSo * a.MauSo;
+            int mauSo = a.MauSo * b.MauSo;
+            return new PhanSo(tuSo, mauSo);
+        }
+        public static PhanSo operator *(PhanSo a, PhanSo b)
+        {
+            int tuSo = a.TuSo * b.TuSo;
+            int mauSo = a.MauSo * b.MauSo;
+            return new PhanSo(tuSo, mauSo);
+        }
+        public static PhanSo operator /(PhanSo a, PhanSo b)
+        {
+            if (b.TuSo == 0)
+            {
+                throw new ArgumentException("Không thể chia cho phân số có tử số bằng 0.");
+            }
+            int tuSo = a.TuSo * b.MauSo;
+            int mauSo = a.MauSo * b.TuSo;
+            return new PhanSo(tuSo, mauSo);
+        }
+        //Yêu cầu nâng cao: Thêm operator + nhận một tham số PhanSo
+        //và một tham số int để tính ps1 + 2 (cộng phân số với số nguyên).
+        //Gợi ý: đổi số nguyên 2 thành phân số 2/1.
+        public static PhanSo operator +(PhanSo a, int b)
+        {
+            return a + new PhanSo(b, 1);
         }
 
     }
