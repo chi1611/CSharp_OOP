@@ -69,7 +69,7 @@ namespace PhanSoApp
         {
             if (b.TuSo == 0)
             {
-                throw new ArgumentException("Không thể chia cho phân số có tử số bằng 0.");
+                throw new ArgumentException("Khong the chia tu so neu co mau so bang 0");
             }
             int tuSo = a.TuSo * b.MauSo;
             int mauSo = a.MauSo * b.TuSo;
@@ -82,6 +82,39 @@ namespace PhanSoApp
         {
             return a + new PhanSo(b, 1);
         }
+        //baitap3: nap chồng toán tử so sánh: ==, !=, <, >, <=, >=
+
+        public static bool operator ==(PhanSo a, PhanSo b)
+        {
+            if (ReferenceEquals(a, b)) return true;
+            if (ReferenceEquals(a, null) || ReferenceEquals(b, null)) return false;
+            return a.TuSo == b.TuSo && a.MauSo == b.MauSo;
+        }
+        public static bool operator !=(PhanSo a, PhanSo b)
+        {
+            return !(a == b);
+        }
+        public static bool operator <(PhanSo a, PhanSo b)
+        {
+            return a.TuSo * b.MauSo < b.TuSo * a.MauSo;
+        }
+        public static bool operator >(PhanSo a, PhanSo b)
+        {
+            return a.TuSo * b.MauSo > b.TuSo * a.MauSo;
+        }
+        public override bool Equals(object obj)
+        {
+            if (obj is PhanSo other)
+            {
+                return this == other;
+            }
+            return false;
+        }
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(TuSo, MauSo);
+        }
+
 
     }
 }
