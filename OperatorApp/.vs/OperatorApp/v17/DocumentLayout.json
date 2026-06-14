@@ -5,20 +5,62 @@
     {
       "AbsoluteMoniker": "D:0:0:{38C19B23-2ED8-4F11-908A-C2F659B2CA5C}|OperatorApp.csproj|d:\\oop_ute\\csharp_oop\\operatorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38C19B23-2ED8-4F11-908A-C2F659B2CA5C}|OperatorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C19B23-2ED8-4F11-908A-C2F659B2CA5C}|OperatorApp.csproj|d:\\oop_ute\\csharp_oop\\operatorapp\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C19B23-2ED8-4F11-908A-C2F659B2CA5C}|OperatorApp.csproj|solutionrelative:money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C19B23-2ED8-4F11-908A-C2F659B2CA5C}|OperatorApp.csproj|d:\\oop_ute\\csharp_oop\\operatorapp\\vector2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C19B23-2ED8-4F11-908A-C2F659B2CA5C}|OperatorApp.csproj|solutionrelative:vector2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 176,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Money.cs",
+              "DocumentMoniker": "D:\\OOP_UTE\\CSharp_OOP\\OperatorApp\\Money.cs",
+              "RelativeDocumentMoniker": "Money.cs",
+              "ToolTip": "D:\\OOP_UTE\\CSharp_OOP\\OperatorApp\\Money.cs",
+              "RelativeToolTip": "Money.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGUAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T08:25:30.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vector2D.cs",
+              "DocumentMoniker": "D:\\OOP_UTE\\CSharp_OOP\\OperatorApp\\Vector2D.cs",
+              "RelativeDocumentMoniker": "Vector2D.cs",
+              "ToolTip": "D:\\OOP_UTE\\CSharp_OOP\\OperatorApp\\Vector2D.cs",
+              "RelativeToolTip": "Vector2D.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwEcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T08:25:00.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,18 +70,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\OOP_UTE\\CSharp_OOP\\OperatorApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAEQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T07:57:54.893Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

@@ -1,0 +1,7 @@
+D:\OOP_UTE\CSharp_OOP\OperatorApp\bin\Debug\OperatorApp.exe.config
+D:\OOP_UTE\CSharp_OOP\OperatorApp\bin\Debug\OperatorApp.exe
+D:\OOP_UTE\CSharp_OOP\OperatorApp\bin\Debug\OperatorApp.pdb
+D:\OOP_UTE\CSharp_OOP\OperatorApp\obj\Debug\OperatorApp.csproj.AssemblyReference.cache
+D:\OOP_UTE\CSharp_OOP\OperatorApp\obj\Debug\OperatorApp.csproj.CoreCompileInputs.cache
+D:\OOP_UTE\CSharp_OOP\OperatorApp\obj\Debug\OperatorApp.exe
+D:\OOP_UTE\CSharp_OOP\OperatorApp\obj\Debug\OperatorApp.pdb
